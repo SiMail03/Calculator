@@ -8,6 +8,7 @@ public class Main {
         int subtractionResult = calc.subtract(5, 3);
         int multiplicationResult = calc.multiply(4, 3);
         int divisionResult = calc.divide(10, 2);
+        double powerResult = calc.power(2, 3);
 
         // Print out the results
         System.out.println("Addition: " + additionResult);      // 5

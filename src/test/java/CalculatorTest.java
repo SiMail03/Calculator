@@ -26,4 +26,10 @@ public class CalculatorTest {
         assertEquals(5, calc.divide(10, 2));
     }
 
+    @Test
+    public void testPower() {
+        Calculator calc = new Calculator();
+        assertEquals(8, calc.power(2, 3));
+    }
+
 }
