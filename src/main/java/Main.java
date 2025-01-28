@@ -9,11 +9,14 @@ public class Main {
         int multiplicationResult = calc.multiply(4, 3);
         int divisionResult = calc.divide(10, 2);
         double powerResult = calc.power(2, 3);
+        int modulusResult = calc.modulus(10, 3);
 
         // Print out the results
         System.out.println("Addition: " + additionResult);      // 5
         System.out.println("Subtraction: " + subtractionResult); // 2
         System.out.println("Multiplication: " + multiplicationResult); // 12
         System.out.println("Division: " +  divisionResult); // 5
+        System.out.println("Power: " + powerResult); // 8.0
+        System.out.println("Modulus: " + modulusResult); // 1
     }
 }

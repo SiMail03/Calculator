@@ -26,10 +26,17 @@ public class CalculatorTest {
         assertEquals(5, calc.divide(10, 2));
     }
 
+
     @Test
     public void testPower() {
         Calculator calc = new Calculator();
         assertEquals(8, calc.power(2, 3));
+    }
+
+    @Test
+    public void testModulus() {
+        Calculator calc = new Calculator();
+        assertEquals(1, calc.modulus(10, 3));
     }
 
 }

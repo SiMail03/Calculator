@@ -21,6 +21,10 @@ public class Calculator {
     public double power(double base, double exponent) {
         return Math.pow(base, exponent);
     }
+    
+    public int modulus(int a, int b) {
+        return a % b;
+    }
 
 
 
