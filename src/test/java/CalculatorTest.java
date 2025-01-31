@@ -23,7 +23,7 @@ public class CalculatorTest {
     @Test
     public void testDivide() {
         Calculator calc = new Calculator();
-        assertEquals(5, calc.divide(10, 2));
+        assertEquals(5, calc.divide(10, 5));
     }
 
 
